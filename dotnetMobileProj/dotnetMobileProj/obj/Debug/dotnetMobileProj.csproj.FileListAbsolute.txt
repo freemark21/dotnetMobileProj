@@ -1,0 +1,15 @@
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\bin\Debug\dotnetMobileProj.dll
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\bin\Debug\dotnetMobileProj.pdb
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\bin\Debug\Xamarin.Forms.Core.dll
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\bin\Debug\Xamarin.Forms.Core.xml
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\obj\Debug\dotnetMobileProj.MainPage.xaml.g.cs
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\obj\Debug\dotnetMobileProj.App.xaml.g.cs
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\obj\Debug\dotnetMobileProj.PickColorPage1.xaml.g.cs
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\obj\Debug\dotnetMobileProj.dll
+C:\Proj\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\obj\Debug\dotnetMobileProj.pdb
