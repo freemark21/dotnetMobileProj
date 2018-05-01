@@ -3,23 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="dotnetMobileProj.PickColorPage1"
              Title="PickColorPage1">
-    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <BoxView x:Name="bxvColorPicker"></BoxView>
-        <Image x:Name="imgColorPicker" Source="ColorPicker.png"></Image>
-        <Picker x:Name="pickerColorPicker" IsVisible="False" SelectedIndexChanged="pickerColorPicker_SelectedIndexChanged"></Picker>
+    <StackLayout>
+        <BoxView x:Name="bxvColorPicker" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></BoxView>
+        <Picker x:Name="pickerColorPicker" IsVisible="True" Title="Pick A Color" TextColor="White" SelectedIndexChanged="pickerColorPicker_SelectedIndexChanged"></Picker>
     </StackLayout>
-
 </ContentPage>
-
-<!--ColumnSpacing="0" VerticalOptions="CenterAndExpand">
-    <Grid.RowDefinitions>
-        <RowDefinition Height="45"></RowDefinition>
-    </Grid.RowDefinitions>
-    <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="45"></ColumnDefinition>
-        <ColumnDefinition Width="45"></ColumnDefinition>
-    </Grid.ColumnDefinitions>
-    <Grid Grid.Row="0" Grid.Column="0" Padding="2" BackgroundColor="Gray"
-          HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <BoxView x:Name="bxvColorPicker"></BoxView>
-    </Grid>-->

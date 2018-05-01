@@ -2,11 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:dotnetMobileProj"
-             x:Class="dotnetMobileProj.MainPage"
-             BackgroundColor="Black">
+             x:Class="dotnetMobileProj.MainPage">
 
     <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" BackgroundColor="Black">
-        <Label x:Name="lblWelcome" Text="Tap to get started picking your colors!" FontSize="Large" TextColor="White">
+        <Image></Image>
+        <Label x:Name="lblWelcome" Text="Tap to get started picking your colors!" FontSize="Large">
             <Label.GestureRecognizers>
                 <TapGestureRecognizer Tapped="WelcomeLabelTapped"/>
             </Label.GestureRecognizers>

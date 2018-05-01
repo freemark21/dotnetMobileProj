@@ -12,6 +12,8 @@ namespace dotnetMobileProj
         public MainPage()
         {
             InitializeComponent();
+            BackgroundColor = (Color)Application.Current.Resources["PageBackgroundColor"];
+            lblWelcome.TextColor = (Color)Application.Current.Resources["FontColor"];
         }
 
         public void WelcomeLabelTapped(object sender, EventArgs e)

@@ -14,6 +14,7 @@ namespace dotnetMobileProj
             InitializeComponent();
 
             MainPage = new NavigationPage(new dotnetMobileProj.MainPage());
+            
         }
 
         protected override void OnStart()
