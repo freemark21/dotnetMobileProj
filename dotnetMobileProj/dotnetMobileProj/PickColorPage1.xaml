@@ -4,7 +4,12 @@
              x:Class="dotnetMobileProj.PickColorPage1"
              Title="PickColorPage1">
     <StackLayout>
-        <BoxView x:Name="bxvColorPicker" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></BoxView>
+        <BoxView x:Name="bxvColorPicker" WidthRequest="350" HeightRequest="150" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
+            <BoxView.GestureRecognizers>
+                <TapGestureRecognizer Tapped="BoxViewTapped"/>
+            </BoxView.GestureRecognizers>
+        </BoxView>
+        <Label x:Name="lblBxvColorPicker" Text="" FontSize="Large"></Label>
         <Picker x:Name="pickerColorPicker" IsVisible="True" Title="Pick A Color" TextColor="White" SelectedIndexChanged="pickerColorPicker_SelectedIndexChanged"></Picker>
     </StackLayout>
 </ContentPage>

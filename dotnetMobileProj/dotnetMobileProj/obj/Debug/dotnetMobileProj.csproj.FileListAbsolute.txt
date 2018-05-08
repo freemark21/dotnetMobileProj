@@ -27,5 +27,6 @@ C:\Users\HTCstudent\Source\Repos\dotnetMobileProj\dotnetMobileProj\dotnetMobileP
 C:\Users\HTCstudent\Source\Repos\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\obj\Debug\dotnetMobileProj.MainPage.xaml.g.cs
 C:\Users\HTCstudent\Source\Repos\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\obj\Debug\dotnetMobileProj.App.xaml.g.cs
 C:\Users\HTCstudent\Source\Repos\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\obj\Debug\dotnetMobileProj.PickColorPage1.xaml.g.cs
+C:\Users\HTCstudent\Source\Repos\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\obj\Debug\dotnetMobileProj.ColorInfoPage.xaml.g.cs
 C:\Users\HTCstudent\Source\Repos\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\obj\Debug\dotnetMobileProj.dll
 C:\Users\HTCstudent\Source\Repos\dotnetMobileProj\dotnetMobileProj\dotnetMobileProj\obj\Debug\dotnetMobileProj.pdb

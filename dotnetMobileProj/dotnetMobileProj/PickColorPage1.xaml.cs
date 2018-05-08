@@ -25,6 +25,8 @@ namespace dotnetMobileProj
             { "Silver", Color.Silver }, { "Teal", Color.Teal },
             { "White", Color.White }, { "Yellow", Color.Yellow }
         };
+
+        Color userPickedColor = Color.Default;
         public PickColorPage1()
         {
             InitializeComponent();
@@ -53,9 +55,18 @@ namespace dotnetMobileProj
             else
             {
                 //change boxview color to picked color
-
-                bxvColorPicker.Color = colorDict[pickerColorPicker.SelectedItem.ToString()];
+                userPickedColor = colorDict[pickerColorPicker.SelectedItem.ToString()];
+                bxvColorPicker.Color = userPickedColor;
+                lblBxvColorPicker.TextColor = userPickedColor;
+                lblBxvColorPicker.Text = "Tap color box to see your chosen colors specs";
             }
+        }
+
+        async void BoxViewTapped (object sender, EventArgs e)
+        {
+            var colorInfoPage = new ColorInfoPage();
+            colorInfoPage.BindingContext = userPickedColor;
+            await Navigation.PushAsync(colorInfoPage);
         }
 
     }

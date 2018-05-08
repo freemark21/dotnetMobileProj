@@ -5,7 +5,11 @@
              x:Class="dotnetMobileProj.MainPage">
 
     <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" BackgroundColor="Black">
-        <Image></Image>
+        <Image Source="ColorPicker.png" WidthRequest="150" HeightRequest="150">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="WelcomeLabelTapped" />
+            </Image.GestureRecognizers>
+        </Image>
         <Label x:Name="lblWelcome" Text="Tap to get started picking your colors!" FontSize="Large">
             <Label.GestureRecognizers>
                 <TapGestureRecognizer Tapped="WelcomeLabelTapped"/>

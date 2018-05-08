@@ -12,10 +12,12 @@ namespace dotnetMobileProj
         public MainPage()
         {
             InitializeComponent();
+            //use app resourcedict for background and font color
             BackgroundColor = (Color)Application.Current.Resources["PageBackgroundColor"];
             lblWelcome.TextColor = (Color)Application.Current.Resources["FontColor"];
         }
 
+        //tap event handler to change text color and nav to next page
         public void WelcomeLabelTapped(object sender, EventArgs e)
         {
             lblWelcome.TextColor = Color.DarkGreen;

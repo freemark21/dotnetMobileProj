@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dotnetMobileProj.ColorInfoPage">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="DarkGray">
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="Large" FontAttributes="Bold" Margin="0,0,0,20" Text="Color Values"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="Large" Text="R:"></Label>
+            <Label FontSize="Large" Text="{Binding R}"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="Large" Text="G:"></Label>
+            <Label FontSize="Large" Text="{Binding G}"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="Large" Text="B:"></Label>
+            <Label FontSize="Large" Text="{Binding B}"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="Large" Text="A:"></Label>
+            <Label FontSize="Large" Text="{Binding A}"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="Large" Text="Hue:"></Label>
+            <Label FontSize="Large" Text="{Binding Hue}"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="Large" Text="Saturation:"></Label>
+            <Label FontSize="Large" Text="{Binding Saturation}"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="Large" Text="Luminosity:"></Label>
+            <Label FontSize="Large" Text="{Binding Luminosity}"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Margin="0,20,0,0" Text="Go to Color Scheme Designer">
+                <Button.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="PalettonButtonTapped" />
+                </Button.GestureRecognizers>
+            </Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
